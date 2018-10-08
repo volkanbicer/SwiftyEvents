@@ -26,50 +26,50 @@ pod 'SwiftyEvents'
 
 ```swift
 func addButton() {
-let button = UIButton()
-button.didTap {
-print("Button did tap")
-}
+    let button = UIButton()
+    button.didTap {
+        print("Button did tap")
+    }
 }
 ```
 
 ```swift
 func addTextField() {
-let textField = UITextField()
-textField.didEdit {
-print(textField.text)
-}
+    let textField = UITextField()
+    textField.didEdit {
+        print(textField.text)
+        }
 }
 ```
 ```swift
 func addSegmentedControl() {
-let segmentedControl = UISegmentedControl()
-segmentedControl.valueDidChange {
-print("Value did change!")
+    let segmentedControl = UISegmentedControl()
+    segmentedControl.valueDidChange {
+        print("Value did change!")
 }
 }
 ```
 Or you can use it for your custom **UIControl**'s you don't need to do anything.
 ```swift
 func addCustomControl() {
-let control = FancyCustomControl()
-control.action(for: .touchUpInside) {
-print("Tap event did fire")
-}
+    let control = FancyCustomControl()
+    control.action(for: .touchUpInside) {
+        print("Tap event did fire")
+        }
 }
 ```
 
 ##### Supported actions
 * didTap
-* UIButton
+    * UIButton
 * valueDidChange
-* UISegmentedControl
-* UISwitch
-* UISlider
-* UIStepper
-* UIRefreshControl
-* didEdit
-* UITextField
+    * UISegmentedControl
+    * UISwitch
+    * UISlider
+    * UIStepper
+    * UIRefreshControl
+    * didEdit
+    *  UITextField
 
 
 

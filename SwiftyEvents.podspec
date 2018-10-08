@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 This library aims to use swifty way when you need to add target your UIControl objects. You can listen event by closures.
                        DESC
 
-  s.homepage         = 'https://github.com/Volkan Bicer/SwiftyEvents'
+  s.homepage         = 'https://github.com/volkanbicer/SwiftyEvents'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Volkan Bicer' => 'vlknbcr@gmail.com' }
