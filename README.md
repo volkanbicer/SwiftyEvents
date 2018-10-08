@@ -38,7 +38,7 @@ func addTextField() {
     let textField = UITextField()
     textField.didEdit {
         print(textField.text)
-        }
+    }
 }
 ```
 ```swift
@@ -46,7 +46,7 @@ func addSegmentedControl() {
     let segmentedControl = UISegmentedControl()
     segmentedControl.valueDidChange {
         print("Value did change!")
-}
+        }
 }
 ```
 Or you can use it for your custom **UIControl**'s you don't need to do anything.
@@ -55,7 +55,7 @@ func addCustomControl() {
     let control = FancyCustomControl()
     control.action(for: .touchUpInside) {
         print("Tap event did fire")
-        }
+    }
 }
 ```
 
