@@ -1,6 +1,6 @@
 # SwiftyEvents
 
-[![CI Status](https://img.shields.io/travis/Volkan Bicer/SwiftyEvents.svg?style=flat)](https://travis-ci.org/VolkanBicer/SwiftyEvents)
+[![CI Status](https://img.shields.io/travis/volkanbicer/SwiftyEvents.svg?style=flat)](https://travis-ci.org/VolkanBicer/SwiftyEvents)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyEvents.svg?style=flat)](https://cocoapods.org/pods/SwiftyEvents)
 [![License](https://img.shields.io/cocoapods/l/SwiftyEvents.svg?style=flat)](https://cocoapods.org/pods/SwiftyEvents)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyEvents.svg?style=flat)](https://cocoapods.org/pods/SwiftyEvents)
