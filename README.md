@@ -18,7 +18,7 @@ SwiftyEvents is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftyEvents'
+pod 'SwiftyEvents', :git => 'https://github.com/volkanbicer/SwiftyEvents.git'
 ```
 
 ## Usage
@@ -68,7 +68,7 @@ func addCustomControl() {
     * UISlider
     * UIStepper
     * UIRefreshControl
-    * didEdit
+* didEdit
     *  UITextField
 
 
