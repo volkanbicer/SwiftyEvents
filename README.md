@@ -46,7 +46,7 @@ func addSegmentedControl() {
     let segmentedControl = UISegmentedControl()
     segmentedControl.valueDidChange {
         print("Value did change!")
-        }
+    }
 }
 ```
 Or you can use it for your custom **UIControl**'s you don't need to do anything.
