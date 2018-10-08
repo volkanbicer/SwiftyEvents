@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyEvents_Example' do
+  pod 'SwiftyEvents', :path => '../'
+
+  target 'SwiftyEvents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
