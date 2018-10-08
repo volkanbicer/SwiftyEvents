@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyEvents (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyEvents (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyEvents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyEvents: 89514453017c9d961a9a0c8e0dd9b5323ce0733e
+
+PODFILE CHECKSUM: dbef8f9bfd1370fbbf65927db456c345e56771e1
+
+COCOAPODS: 1.5.3
