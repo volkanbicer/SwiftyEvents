@@ -1,6 +1,6 @@
 //
 //  UIControl+Extensions.swift
-//  SwiftyEvents_Example
+//  SwiftyEvents
 //
 //  Created by Volkan Bicer on 8.10.2018.
 //  Copyright © 2018 CocoaPods. All rights reserved.
@@ -21,11 +21,5 @@ extension UIControl {
                                  objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
         return closureInvoke
     }
-
-
-    public func test() {}
 }
-
-
-public class Vada {}
 

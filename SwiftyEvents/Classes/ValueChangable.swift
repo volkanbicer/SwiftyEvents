@@ -1,6 +1,6 @@
 //
 //  ValueChangable.swift
-//  SwiftyEvents_Example
+//  SwiftyEvents
 //
 //  Created by Volkan Bicer on 8.10.2018.
 //  Copyright © 2018 CocoaPods. All rights reserved.
